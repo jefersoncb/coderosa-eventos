@@ -1,4 +1,3 @@
-# coderosa-eventos
 CodeRosa
 
 # Projeto
@@ -10,4 +9,7 @@ Promover oficinas como meio de obtenção de novos conhecimentos na área e netw
 Criar oficinas e eventos de incentivo à programação;
 Proporcionar às alunas de graduação envolvidas no projeto a possibilidade de aplicar conhecimentos já adquiridos no curso, com o intuito de promover mais alunas a gostarem da área;
 Incentivar as alunas de graduação a serem multiplicadoras e motivadoras entre suas colegas de graduação.
+
+# App
+
 
