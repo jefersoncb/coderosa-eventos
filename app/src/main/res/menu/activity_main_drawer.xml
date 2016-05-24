@@ -11,6 +11,10 @@
             android:icon="@drawable/ic_event_black_24dp_2x"
             android:title="Eventos" />
         <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_place_black_24dp_2x"
+            android:title="Mapa" />
+        <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Vídeos" />
