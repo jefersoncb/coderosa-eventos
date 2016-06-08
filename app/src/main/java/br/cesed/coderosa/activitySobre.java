@@ -1,10 +1,13 @@
 package br.cesed.coderosa;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class sobre extends AppCompatActivity {
-
+/**
+ * Created by jeferson on 6/8/16.
+ */
+public class activitySobre extends Activity
+{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

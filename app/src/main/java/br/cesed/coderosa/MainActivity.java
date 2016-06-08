@@ -43,14 +43,6 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        MenuItem item1 = (MenuItem) findViewById(R.id.nav_sobre);
-        item1.setOnMenuItemClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent ((), )
-            }
-        });
-
     }
 
     @Override
@@ -82,6 +74,12 @@ public class MainActivity extends AppCompatActivity
             return true;
         }
 
+        if (id == R.id.nav_sobre) {
+            Intent intent = new Intent(this, activitySobre.class);
+            startActivity(intent);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -93,18 +91,35 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_inicio) {
             // Handle the camera action
-        } else if (id == R.id.nav_eventos) {
+        } else if (id == R.id.nav_eventos)
+        {
+            Intent intent = new Intent(this, activityEventos.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_mapa) {
+        } else if (id == R.id.nav_mapa)
+        {
+            Intent intent = new Intent(this, activityMapa.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_videos) {
+        } else if (id == R.id.nav_videos)
+        {
+            Intent intent = new Intent(this, activityVideos.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_informativos) {
+        } else if (id == R.id.nav_informativos)
+        {
+            Intent intent = new Intent(this, activityInformativos.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_charges) {
+        } else if (id == R.id.nav_charges)
+        {
+            Intent intent = new Intent(this, activityCharges.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_sobre) {
-
+        } else if (id == R.id.nav_sobre)
+        {
+            Intent intent = new Intent(this, activitySobre.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
