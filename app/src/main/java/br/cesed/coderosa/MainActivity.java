@@ -1,8 +1,10 @@
 package br.cesed.coderosa;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.view.menu.MenuView;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -40,6 +42,15 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        MenuItem item1 = (MenuItem) findViewById(R.id.nav_sobre);
+        item1.setOnMenuItemClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent ((), )
+            }
+        });
+
     }
 
     @Override
@@ -80,15 +91,19 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_inicio) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_eventos) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_mapa) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_videos) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_informativos) {
+
+        } else if (id == R.id.nav_charges) {
+
+        } else if (id == R.id.nav_sobre) {
 
         }
 

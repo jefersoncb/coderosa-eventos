@@ -5,4 +5,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <!-- Sua chave do Google API Console - Maps V2 -->
+    <string name="google_maps_api_key">AIzaSyD9aJHEbqGRxTNXRRUagspIq4XNagD5gMY</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

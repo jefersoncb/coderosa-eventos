@@ -3,28 +3,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_inicio"
             android:icon="@drawable/ic_home_black_24dp_2x"
             android:title="Início" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_eventos"
             android:icon="@drawable/ic_event_black_24dp_2x"
             android:title="Eventos" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_mapa"
             android:icon="@drawable/ic_place_black_24dp_2x"
             android:title="Mapa" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_videos"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Vídeos" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_informativos"
             android:icon="@drawable/ic_info_black_24dp_2x"
             android:title="Informativos" />
 
         <item
-            android:id="@+id/nav_share"
+            android:id="@+id/nav_charges"
+            android:icon="@drawable/ic_insert_emoticon_black_24dp_2x"
+            android:title="Charges" />
+
+        <item
+            android:id="@+id/nav_sobre"
             android:icon="@drawable/ic_menu_share"
             android:title="Sobre" />
     </group>
