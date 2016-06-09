@@ -29,22 +29,27 @@
             </intent-filter>
         </activity>
         <activity android:name=".activitySobre"
-            android:icon="@drawable/rosa"
+            android:icon="@drawable/ic_menu_share"
             android:label="Sobre o Code Rosa" />
+
         <activity android:name=".activityCharges"
-            android:icon="@drawable/rosa"
+            android:icon="@drawable/ic_insert_emoticon_black_24dp_2x"
             android:label="Sobre o Code Rosa"/>
+
         <activity android:name=".activityEventos"
-            android:icon="@drawable/rosa"
+            android:icon="@drawable/ic_event_black_24dp_2x"
             android:label="Sobre o Code Rosa"/>
+
         <activity android:name=".activityInformativos"
-            android:icon="@drawable/rosa"
+            android:icon="@drawable/ic_info_black_24dp_2x"
             android:label="Sobre o Code Rosa"/>
+
         <activity android:name=".activityMapa"
-            android:icon="@drawable/rosa"
+            android:icon="@drawable/ic_place_black_24dp_2x"
             android:label="Sobre o Code Rosa"/>
+
         <activity android:name=".activityVideos"
-            android:icon="@drawable/rosa"
+            android:icon="@drawable/ic_menu_slideshow"
             android:label="Sobre o Code Rosa"/>
 
     </application>
