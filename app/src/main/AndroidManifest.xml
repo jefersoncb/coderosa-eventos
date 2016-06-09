@@ -28,12 +28,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activitySobre"></activity>
-        <activity android:name=".activityCharges"></activity>
-        <activity android:name=".activityEventos"></activity>
-        <activity android:name=".activityInformativos"></activity>
-        <activity android:name=".activityMapa"></activity>
-        <activity android:name=".activityVideos"></activity>
+        <activity android:name=".activitySobre"
+            android:icon="@drawable/rosa"
+            android:label="Sobre o Code Rosa" />
+        <activity android:name=".activityCharges"
+            android:icon="@drawable/rosa"
+            android:label="Sobre o Code Rosa"/>
+        <activity android:name=".activityEventos"
+            android:icon="@drawable/rosa"
+            android:label="Sobre o Code Rosa"/>
+        <activity android:name=".activityInformativos"
+            android:icon="@drawable/rosa"
+            android:label="Sobre o Code Rosa"/>
+        <activity android:name=".activityMapa"
+            android:icon="@drawable/rosa"
+            android:label="Sobre o Code Rosa"/>
+        <activity android:name=".activityVideos"
+            android:icon="@drawable/rosa"
+            android:label="Sobre o Code Rosa"/>
+
     </application>
 
 </manifest>
