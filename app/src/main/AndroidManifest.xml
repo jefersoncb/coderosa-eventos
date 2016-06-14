@@ -34,23 +34,23 @@
 
         <activity android:name=".activityCharges"
             android:icon="@drawable/ic_insert_emoticon_black_24dp_2x"
-            android:label="Sobre o Code Rosa"/>
+            android:label="Charges"/>
 
         <activity android:name=".activityEventos"
             android:icon="@drawable/ic_event_black_24dp_2x"
-            android:label="Sobre o Code Rosa"/>
+            android:label="Eventos"/>
 
         <activity android:name=".activityInformativos"
             android:icon="@drawable/ic_info_black_24dp_2x"
-            android:label="Sobre o Code Rosa"/>
+            android:label="Informaticos"/>
 
         <activity android:name=".activityMapa"
             android:icon="@drawable/ic_place_black_24dp_2x"
-            android:label="Sobre o Code Rosa"/>
+            android:label="Mapa"/>
 
         <activity android:name=".activityVideos"
             android:icon="@drawable/ic_menu_slideshow"
-            android:label="Sobre o Code Rosa"/>
+            android:label="Vídeos"/>
 
     </application>
 
