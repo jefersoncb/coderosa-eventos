@@ -25,7 +25,7 @@ public class activityMapa extends Activity{
                 // TODO Auto-generated method stub
                 AlertDialog alert = new AlertDialog.Builder(activityMapa.this).create();
                 alert.setTitle("Ops...");
-                alert.setMessage("Te peguei!!!");
+                alert.setMessage("Coloquei um print do mapa, a API do google eu não consegui.");
                 alert.setCancelMessage(null);
                 alert.show();
             }

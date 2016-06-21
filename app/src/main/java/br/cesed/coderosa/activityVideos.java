@@ -16,6 +16,6 @@ public class activityVideos extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_videos);
         WebView browser = (WebView) findViewById(R.id.webView);
-        browser.loadUrl("https://www.youtube.com/user/facisapb");
+        browser.loadUrl("http://www.youtube.com/user/facisapb");
     }
 }
