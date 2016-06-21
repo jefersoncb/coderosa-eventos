@@ -15,6 +15,8 @@ public class activityMapa extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapa);
 
+
+
         AlertDialog alertDialog = new AlertDialog.Builder(this).create();
         alertDialog.setTitle("Ops...");
         alertDialog.setMessage("Rá...te peguei!!!");
