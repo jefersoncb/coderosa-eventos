@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 
 /**
  * Created by jeferson on 6/8/16.
@@ -15,16 +17,17 @@ public class activityMapa extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapa);
 
+        ImageButton bm1 = (ImageButton) findViewById(R.id.imageView5);
+        bm1.setOnClickListener(new View.OnClickListener() {
 
-
-        AlertDialog alertDialog = new AlertDialog.Builder(this).create();
-        alertDialog.setTitle("Ops...");
-        alertDialog.setMessage("Rá...te peguei!!!");
-        alertDialog.setButton("OK", new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int which) {
-
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                AlertDialog alert = new AlertDialog.Builder(activityMapa.this).create();
+                alert.setTitle("Ops...");
+                alert.setMessage("Te peguei!!!");
+                alert.setCancelMessage(null);
+                alert.show();
             }
         });
-        alertDialog.show();
-    }
-}
+    }}
