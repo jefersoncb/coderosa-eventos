@@ -2,10 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.cesed.coderosa">
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -18,6 +17,7 @@
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_api_key" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -28,30 +28,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activitySobre"
+        <activity
+            android:name=".activitySobre"
             android:icon="@drawable/ic_menu_share"
             android:label="Sobre o Code Rosa" />
-
-        <activity android:name=".activityCharges"
+        <activity
+            android:name=".activityCharges"
             android:icon="@drawable/ic_insert_emoticon_black_24dp_2x"
-            android:label="Charges"/>
-
-        <activity android:name=".activityEventos"
+            android:label="Charges" />
+        <activity
+            android:name=".activityEventos"
             android:icon="@drawable/ic_event_black_24dp_2x"
-            android:label="Eventos"/>
-
-        <activity android:name=".activityInformativos"
+            android:label="Eventos" />
+        <activity
+            android:name=".activityInformativos"
             android:icon="@drawable/ic_info_black_24dp_2x"
-            android:label="Informaticos"/>
-
-        <activity android:name=".activityMapa"
+            android:label="Informaticos" />
+        <activity
+            android:name=".activityMapa"
             android:icon="@drawable/ic_place_black_24dp_2x"
-            android:label="Mapa"/>
-
-        <activity android:name=".activityVideos"
+            android:label="Mapa" />
+        <activity
+            android:name=".activityVideos"
             android:icon="@drawable/ic_menu_slideshow"
-            android:label="Vídeos"/>
-
+            android:label="Vídeos" />
     </application>
 
 </manifest>
